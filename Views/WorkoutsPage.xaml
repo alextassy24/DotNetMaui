@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessTracker.Views.WorkoutsPage"
+             Title="Workouts Page">
+    <ListView x:Name="listWorkouts"
+              RowHeight="70"
+              BackgroundColor="Transparent"
+              SeparatorColor="Red"
+              ItemSelected="ListWorkouts_ItemSelected"
+              ItemTapped="ListWorkouts_ItemTapped">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding Name}"
+                        Detail="{Binding Description}">
+                </TextCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

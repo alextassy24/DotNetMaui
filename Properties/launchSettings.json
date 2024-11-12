@@ -3,6 +3,11 @@
     "Windows Machine": {
       "commandName": "MsixPackage",
       "nativeDebugging": false
+    },
+    "FitnessTracker": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "framework": "net8.0-maccatalyst"
     }
   }
 }

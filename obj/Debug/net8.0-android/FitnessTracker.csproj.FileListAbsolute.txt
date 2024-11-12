@@ -121,6 +121,7 @@
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/obj/Debug/net8.0-android/FitnessTracker.AssemblyInfoInputs.cache
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/obj/Debug/net8.0-android/FitnessTracker.AssemblyInfo.cs
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/obj/Debug/net8.0-android/FitnessTracker.csproj.CoreCompileInputs.cache
+/Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/obj/Debug/net8.0-android/FitnessTracker.sourcelink.json
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/obj/Debug/net8.0-android/XamlC.stamp
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/obj/Debug/net8.0-android/FitnessTracker.dll
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/obj/Debug/net8.0-android/FitnessTracker.pdb

@@ -45,3 +45,21 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FitnessTracker.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/Views/AddWorkoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessTracker.Views.AddWorkoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/AddWorkoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/AddWorkoutPage.xaml
+
+[/Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/Views/EditWorkoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessTracker.Views.EditWorkoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/EditWorkoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/EditWorkoutPage.xaml
+
+[/Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/Views/WorkoutsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FitnessTracker.Views.WorkoutsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/WorkoutsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/WorkoutsPage.xaml
