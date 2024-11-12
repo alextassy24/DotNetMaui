@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "83FDBaghIVw=",
+  "dgSpecHash": "wgd64MVjNiI=",
   "success": true,
   "projectFilePath": "/Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/FitnessTracker.csproj",
   "expectedPackageFiles": [
+    "/Users/alexandrutanase/.nuget/packages/communitytoolkit.maui/9.1.1/communitytoolkit.maui.9.1.1.nupkg.sha512",
+    "/Users/alexandrutanase/.nuget/packages/communitytoolkit.maui.core/9.1.1/communitytoolkit.maui.core.9.1.1.nupkg.sha512",
     "/Users/alexandrutanase/.nuget/packages/googlegson/2.10.1.4/googlegson.2.10.1.4.nupkg.sha512",
     "/Users/alexandrutanase/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/Users/alexandrutanase/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

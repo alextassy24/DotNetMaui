@@ -1,3 +1,4 @@
+using System.Collections.ObjectModel;
 using FitnessTracker.Models;
 
 namespace FitnessTracker.Views;
@@ -7,10 +8,13 @@ public partial class WorkoutsPage : ContentPage
     public WorkoutsPage()
     {
         InitializeComponent();
+    }
 
-        List<Workout> workouts = WorkoutRepo.GetWorkouts();
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
 
-        listWorkouts.ItemsSource = workouts;
+        listWorkouts.ItemsSource = new ObservableCollection<Workout>(WorkoutRepo.GetWorkouts());
     }
 
     public async void ListWorkouts_ItemSelected(object sender, EventArgs e)

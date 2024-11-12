@@ -34,6 +34,8 @@
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../FitnessTracker.app/zh-Hans/Microsoft.Maui.Controls.resources.dll
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../FitnessTracker.app/zh-Hant/Microsoft.Maui.Controls.resources.dll
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../FitnessTracker.app/runtimeconfig.bin
+/Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../FitnessTracker.app/CommunityToolkit.Maui.dll
+/Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../FitnessTracker.app/CommunityToolkit.Maui.Core.dll
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../FitnessTracker.app/Microsoft.Extensions.Configuration.dll
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../FitnessTracker.app/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../FitnessTracker.app/Microsoft.Extensions.DependencyInjection.dll

@@ -9,6 +9,39 @@ namespace FitnessTracker.Models
         ];
 
         public static List<Workout> GetWorkouts() => workouts;
-        public static Workout GetWorkoutById(int id) => workouts.FirstOrDefault(w => w.Id == id);
+        public static Workout? GetWorkoutById(int id)
+        {
+            var workout = workouts.FirstOrDefault(w => w.Id == id);
+            if(workout != null)
+            {
+                return new Workout{
+                    Id = workout.Id,
+                    Name = workout.Name,
+                    Description = workout.Description
+                };
+            }
+
+            return null;
+        } 
+        public static void UpdateWorkout(int id, Workout workout)
+        {
+            if(id != workout.Id) return;
+
+            var workoutToUpdate = workouts.FirstOrDefault(x => x.Id == id); 
+            if (workoutToUpdate != null)
+            {
+                workoutToUpdate.Name = workout.Name;
+                workoutToUpdate.Description = workout.Description;
+            }
+        }
+
+        public static void RemoveWorkout(int id)
+        {
+            var workoutToRemove = workouts.FirstOrDefault(x => x.Id == id);
+            if (workoutToRemove != null)
+            {
+                workouts.Remove(workoutToRemove);
+            }
+        }
     }
 }

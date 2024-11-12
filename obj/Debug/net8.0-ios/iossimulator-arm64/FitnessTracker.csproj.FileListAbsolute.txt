@@ -1,6 +1,8 @@
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/FitnessTracker.runtimeconfig.json
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/FitnessTracker.dll
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/FitnessTracker.pdb
+/Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/CommunityToolkit.Maui.dll
+/Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/CommunityToolkit.Maui.Core.dll
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/Microsoft.Extensions.Configuration.dll
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/Microsoft.Extensions.DependencyInjection.dll
@@ -300,6 +302,8 @@
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/obj/Debug/net8.0-ios/iossimulator-arm64/_ProcessedBundleResourcesPath.items
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/obj/Debug/net8.0-ios/iossimulator-arm64/_ProcessedContentPath.items
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/obj/Debug/net8.0-ios/iossimulator-arm64/FitnessTracker.csproj.AssemblyReference.cache
+/Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/CommunityToolkit.Maui.Core.stamp
+/Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/CommunityToolkit.Maui.stamp
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/Microsoft.CSharp.stamp
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/Microsoft.Extensions.Configuration.Abstractions.stamp
 /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/Microsoft.Extensions.Configuration.stamp
