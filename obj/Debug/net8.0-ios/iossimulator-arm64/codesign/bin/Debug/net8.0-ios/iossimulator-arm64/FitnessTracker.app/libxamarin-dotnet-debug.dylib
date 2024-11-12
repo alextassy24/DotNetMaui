@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/alexandrutanase/Desktop/fitness tracker/FitnessTracker/bin/Debug/net8.0-ios/iossimulator-arm64/FitnessTracker.app/libxamarin-dotnet-debug.dylib
