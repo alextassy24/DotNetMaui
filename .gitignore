@@ -334,3 +334,6 @@ temp
 
 # macOS system files
 .DS_Store
+
+bin/
+obj/

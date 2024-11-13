@@ -1,14 +1,30 @@
-namespace FitnessTracker.Views;
+using FitnessTracker.Models;
 
-public partial class AddWorkoutPage : ContentPage
+namespace FitnessTracker.Views
 {
-    public AddWorkoutPage()
+    public partial class AddWorkoutPage : ContentPage
     {
-        InitializeComponent();
-    }
+        public AddWorkoutPage()
+        {
+            InitializeComponent();
+        }
 
-    private void BtnCancel_Clicked(object sender, EventArgs e)
-    {
-        Shell.Current.GoToAsync("..");
+        private void WorkoutCtrl_OnSave(object sender, EventArgs e)
+        {
+            WorkoutRepo.AddWorkout(
+                new Workout { Name = workoutCtrl.Name, Description = workoutCtrl.Description }
+            );
+            Shell.Current.GoToAsync($"//{nameof(WorkoutsPage)}");            
+        }
+
+        private void WorkoutCtrl_OnCancel(object sender, EventArgs e)
+        {
+            Shell.Current.GoToAsync($"//{nameof(WorkoutsPage)}");            
+         }
+
+        private void WorkoutCtrl_OnError(object sender, EventArgs e)
+        {
+             DisplayAlert("Error", e.ToString(), "OK");
+        }
     }
 }

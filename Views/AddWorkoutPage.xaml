@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:controls="clr-namespace:FitnessTracker.Views.Controls"
              x:Class="FitnessTracker.Views.AddWorkoutPage"
              Title="Add Workout">
-    <VerticalStackLayout>
-        <Label
-            Text="Welcome to .NET Maui!"
-            VerticalOptions="Center"
-            HorizontalOptions="Center"/>
-        <Button x:Name="btnCancel" Text="Cancel" Clicked="BtnCancel_Clicked" />
-
-    </VerticalStackLayout>
+    <controls:WorkoutControl x:Name="workoutCtrl" OnSave="WorkoutCtrl_OnSave" OnCancel="WorkoutCtrl_OnCancel" OnError="WorkoutCtrl_OnError" />
+    
 </ContentPage>
