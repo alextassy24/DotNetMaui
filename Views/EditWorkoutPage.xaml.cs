@@ -1,48 +1,49 @@
 using FitnessTracker.Models;
 
-namespace FitnessTracker.Views;
-
-[QueryProperty(nameof(WorkoutId), "Id")]
-public partial class EditWorkoutPage : ContentPage
+namespace FitnessTracker.Views
 {
-    private Workout? workout;
-
-    public EditWorkoutPage()
+    [QueryProperty(nameof(WorkoutId), "Id")]
+    public partial class EditWorkoutPage : ContentPage
     {
-        InitializeComponent();
-    }
+        private Workout? workout;
 
-    private void BtnCancel_Clicked(object sender, EventArgs e)
-    {
-        Shell.Current.GoToAsync("..");
-    }
-
-    public int WorkoutId
-    {
-        set
+        public EditWorkoutPage()
         {
-            workout = WorkoutRepo.GetWorkoutById(value);
-            if (workout != null && workout.Name != null && workout.Description != null)
-            {
-                workoutCtrl.Name = workout.Name;
-                workoutCtrl.Description = workout.Description;
-            }
+            InitializeComponent();
         }
-    }
 
-    public void BtnUpdate_Clicked(object sender, EventArgs e)
-    {
-        if (workout != null && workout.Name != null && workout.Description != null)
+        private void BtnCancel_Clicked(object sender, EventArgs e)
         {
-            workout.Name = workoutCtrl.Name;
-            workout.Description = workoutCtrl.Description;
-            WorkoutRepo.UpdateWorkout(workout.Id, workout);
             Shell.Current.GoToAsync("..");
         }
-    }
 
-    public void WorkoutCtrl_OnError(object sender, string errorMessage)
-    {
-        DisplayAlert("Error", errorMessage, "OK");
+        public int WorkoutId
+        {
+            set
+            {
+                workout = WorkoutRepo.GetWorkoutById(value);
+                if (workout != null && workout.Name != null && workout.Description != null)
+                {
+                    workoutCtrl.Name = workout.Name;
+                    workoutCtrl.Description = workout.Description;
+                }
+            }
+        }
+
+        public void BtnUpdate_Clicked(object sender, EventArgs e)
+        {
+            if (workout != null && workout.Name != null && workout.Description != null)
+            {
+                workout.Name = workoutCtrl.Name;
+                workout.Description = workoutCtrl.Description;
+                WorkoutRepo.UpdateWorkout(workout.Id, workout);
+                Shell.Current.GoToAsync("..");
+            }
+        }
+
+        public void WorkoutCtrl_OnError(object sender, string errorMessage)
+        {
+            DisplayAlert("Error", errorMessage, "OK");
+        }
     }
 }

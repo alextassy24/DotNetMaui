@@ -5,6 +5,8 @@
              xmlns:controls="clr-namespace:FitnessTracker.Views.Controls"
              x:Class="FitnessTracker.Views.AddWorkoutPage"
              Title="Add Workout">
-    <controls:WorkoutControl x:Name="workoutCtrl" OnSave="WorkoutCtrl_OnSave" OnCancel="WorkoutCtrl_OnCancel" OnError="WorkoutCtrl_OnError" />
-    
+    <controls:WorkoutControl x:Name="workoutCtrl"
+            OnSave="WorkoutCtrl_OnSave"
+            OnCancel="WorkoutCtrl_OnCancel"
+            OnError="WorkoutCtrl_OnError"/>
 </ContentPage>

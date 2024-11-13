@@ -32,10 +32,16 @@ public partial class WorkoutsPage : ContentPage
         listWorkouts.SelectedItem = null;
     }
 
-    public void BtnAdd_Clicked(object sender, EventArgs e)
+    public async void BtnAdd_Clicked(object sender, EventArgs e)
     {
-        // Shell.Current.GoToAsync(nameof(AddWorkoutPage));
-        Shell.Current.GoToAsync("AddWorkoutPage");
+        try
+        {
+            await Shell.Current.GoToAsync(nameof(AddWorkoutPage));
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Error add btn clicked", $"Exception: {ex.Message}\n{ex.StackTrace}", "OK");
+        }
     }
 
     public void MenuItem_Clicked(object sender, EventArgs e)
@@ -56,8 +62,9 @@ public partial class WorkoutsPage : ContentPage
 
     public void SearchBar_TextChanged(object sender, EventArgs e)
     {
-        var workouts = new ObservableCollection<Workout>(WorkoutRepo.SearchWorkouts(((SearchBar)sender).Text));
+        var workouts = new ObservableCollection<Workout>(
+            WorkoutRepo.SearchWorkouts(((SearchBar)sender).Text)
+        );
         listWorkouts.ItemsSource = workouts;
     }
 }
-

@@ -36,13 +36,14 @@
             </ListView.ItemTemplate>
         </ListView>
 
-        <Button Grid.Row="2"
-                Grid.Column="0"
-                x:Name="btnAdd"
-                Text="Add Workout"
-                Clicked="BtnAdd_Clicked"
-                Style="{x:Static styles:TailwindStyles.PrimaryButton}">
-        </Button>
+        <Button
+            Grid.Row="2"
+            Grid.Column="0"
+            x:Name="btnAdd"
+            Text="Add Workout"
+            Clicked="BtnAdd_Clicked"
+            Style="{x:Static styles:TailwindStyles.PrimaryButton}"/>
+
     </Grid>
 
 </ContentPage>
